@@ -1,0 +1,23 @@
+
+#navsec
+{
+    height: 50px;
+  display: flex; 
+}
+.snav{
+    text-decoration: none;
+    border: 1px solid black;
+    vertical-align: middle;
+    overflow: hidden;    
+    line-height: 3;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row ;
+    flex-grow:1;
+     flex-shrink: 1;
+     text-align: center;
+     border-radius: 5px;
+}
+#hover:hover{
+    background-color: rgb(245, 245, 245);
+}
