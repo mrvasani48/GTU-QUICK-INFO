@@ -5,59 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gtu Quick Info</title>
-    <link rel="stylesheet" href="home_page.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="second_nav.css">
     <script src="home_page.js"></script>
 </head>
-<body> 
-    <header>  
-            <img src="image/logo.jpg" height="150px" width="150px"></img>  
-            <h1>gujrat technological University gandhinagar</h1>
-            <Nav>
-                  <a href="#">Home</a>
-                  <a href="#">About Gtu</a>
-                  <a href="#">Circular</a>
-                  <a href="#">Scadamic</a>
-                  <a href="#">Stu. Zone</a>
-                  <a href="#">Result</a>
-                  <a href="#">Cources</a>
-                  <a href="#">Other</a>
-                  <a href="#">Contact Us</a>
-                  <a href="#">login_page</a>
+<body>      
+<header class="header"> 
+       <div > 
+                       <img id="logo"  class="fleft" src="image/logo.jpg" height="150px" width="150px"></img>  
+       <div>  
+      <div >      
+            <h1 id="headingh1">GTU QUICK INFO</h1>
+            <Nav id="navhead" >
+                  <a class="pnav" id="active" href="#">Home</a>
+                  <a class="pnav" href="#">About Gtu</a>
+                  <a class="pnav" href="#">Circular</a>
+                  <a class="pnav" href="#">Acadamic</a>
+                  <a class="pnav" href="#">Stu. Zone</a>
+                  <a class="pnav" href="#">Result</a>
+                  <a class="pnav" href="#">Cources</a>
+                  <a class="pnav" href="#">Other</a>
+                  <a class="pnav" href="#">Contact Us</a>
+                  <a class="pnav" href="#">login_page</a>
             </Nav>
-    </header>
-            <hr>
+      </div>      
+</header>
          
-    <section>
-            <img src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="280px" width="280px"></img> 
-            <img src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="280px" width="280px"></img> 
-            <img src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="280px" width="280px"></img> 
-            <img src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="280px" width="280px"></img> 
-
-            <ul style="list-style-type:none;">
-            <li><a href="#"><</a></li>
-            <li><a href="#">*</a></li>
-            <li><a href="#">*</a></li>
-            <li><a href="#">*</a></li>
-            <li><a href="#">*</a></li>
-            <li><a href="#">></a></li>
+    <section id="gallery">
+          
+            <img id="one" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="250px" width="230px"></img> 
+            <img id="two" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="250px" width="230px"></img> 
+            <img id="three" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="250px" width="230px"></img> 
+            <img id="four" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="250px" width="230px"></img> 
+         <div >
+            <ul style="list-style-type:none;" id="slidegallery">
+            <li id="flt" style="text-decoration: none;" ><a href="#"><</a></li>
+            <li id="flt" ><a href="#">*</a></li>
+            <li id="flt" ><a href="#">*</a></li>
+            <li id="flt" ><a href="#">*</a></li>
+            <li id="flt" ><a href="#">*</a></li>
+            <li id="flt" ><a href="#">></a></li>
             </ul>
-
-    </section>
-<hr>
-    <section>
-            <Nav>
-                  <a href="#">Reports</a>
-                  <a href="#">Gallery</a>
-                  <a href="#">Impo. Link</a>
-                  <a href="#">Admission</a>
-                  <a href="#">International</a>
-                  <a href="#">E-Education</a>
-                  <a href="#">Online Payment</a>
-                  <a href="#">Download</a>
+          </div>
+    </section><br><br>
+    <section id="nav2">
+            <Nav id="navsec">
+                  <a id="hover" class="snav"  href="#">Reports</a>
+                  <a class="snav"  href="#">Gallery</a>
+                  <a class="snav"  href="#">Impo. Link</a>
+                  <a class="snav"  href="#">Admission</a>
+                  <a class="snav"  href="#">International</a>
+                  <a class="snav"  href="#">E-Education</a>
+                  <a class="snav"  href="#">Online Payment</a>
+                  <a class="snav"  href="#">Download</a>
         
             </Nav>
     </section>
-    <hr>
+<!--
     <section>
               <video controls autoplay="none" height="380" width="660" alt="this video please check ypur connection" >
               <source type="video/mp4" src="https://www.youtube.com/embed/ur7enXZE8As">
@@ -181,6 +186,6 @@ Chandkheda, Ahmedabad – 382424 - Gujrat</p>
     <a href="#" target="_blank" rel="noopener noreferrer">Term & condition</a>
     <a href="#" target="_blank" rel="noopener noreferrer">gtu</a>
     </nav>
-    <hr>
+    <hr>-->
 </body>
 </html>
