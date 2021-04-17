@@ -1,0 +1,20 @@
+#gallery
+{
+    margin: 10px;
+    margin-left: 22px;
+
+}
+#one, #two, #three ,#four
+{
+    margin: 10px;
+    box-shadow:0px 0px 15px darkorange;
+    border-radius: 5px;
+}
+#slidegallery
+{
+   list-style-type:none;
+}
+#flt
+{
+    float: left;
+}
