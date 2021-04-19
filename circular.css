@@ -1,0 +1,31 @@
+.circulargride
+{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr  1fr ;
+        grid-template-rows: 1fr ;
+        grid-column-gap: 10px;
+        grid-row-gap:20px ;
+            
+}
+.circularitems1
+{
+    border:1px solid rgb(20, 14, 1);
+    width: 200px;
+    height: 160px;
+    display: grid;
+    grid-template-rows: 80% 20% ;
+    box-shadow: 0px 0px 15px orange;
+   
+}
+.circulartextitems1
+{
+    text-transform: capitalize;
+    font-size:20px;
+    text-align: center;
+}
+.circularviewall
+{
+    text-decoration: none;
+    text-align: center;
+    font-size:30px ;
+}

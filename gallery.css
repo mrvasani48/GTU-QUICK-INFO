@@ -1,7 +1,6 @@
 #gallery
 {
-  
-
+margin-top: 20px;
 }
 
 #slidegallery
@@ -14,15 +13,16 @@
 }
 #photosgallery
 {
-    display: flex;
-    
+    display: flex;   
+     
 }
 #one, #two, #three ,#four
 {
-    margin: 10px;
+
     box-shadow:0px 0px 15px darkorange;
     border-radius: 5px;
     flex-grow: 1;
     flex-shrink: 1;
-        
+    justify-content: space-around;   
+    margin-right: 15px; 
 }

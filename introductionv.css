@@ -1,19 +1,17 @@
 #intvideo
 {
- margin: 20px;
- margin-bottom: 430px;
-
+ margin-top: 20px;
+ margin-bottom: 30px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-column-gap:50px;
 }
 #video
 {
     border-radius: 15px;
-    float: left;
+ 
 }
-#introtext
-{
-     
-        float: right;
- }
+
  #wlcm
  {
      font-size: 25px;

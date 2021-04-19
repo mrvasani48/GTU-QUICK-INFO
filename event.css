@@ -1,0 +1,27 @@
+#eventh1
+{
+    margin-top: 0px;
+}
+#event1
+{
+    border:1px solid wheat;
+    width: 200px;
+    box-shadow:0px 0px 15px orange;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+#eventanchor
+{
+    text-decoration: none;
+  
+}
+#eventimage
+{
+    border-radius: 5px;
+}
+#eventname
+{
+    text-align: center;
+   
+}

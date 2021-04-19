@@ -1,0 +1,73 @@
+#footer {
+    background-color: #fc952c;
+    width: 100%;
+    height: 230px;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+}
+#d1footer{
+          width: 200px;
+          align-content: center;
+          margin: 10px;
+        
+}
+
+#d2footer{
+            height: 200px;
+            width: 750px;
+}
+
+#d2h{
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 200%
+}
+
+#d3footer{
+    margin-left: 30px;
+}
+
+.contact{
+    margin-top: -10px;
+    margin-bottom: -9px;
+    text-transform: capitalize;
+}
+#logofooter
+{
+    border-radius: 5px;
+}
+#copyright
+{
+    text-transform: capitalize;
+    float: left;
+    margin-top: 0%;
+    color: cornsilk;
+}
+#lastnav
+{
+    background-color: rgb(103, 103, 241);
+    
+}
+#term{
+    text-transform: capitalize;
+    text-decoration:none ;
+    color: cornsilk;
+    padding-left: 300px;
+}
+#gtuweb{
+    text-transform: capitalize;
+    text-decoration:none ;
+    color: cornsilk;
+    text-align:right ;
+    padding-left: 300px;
+
+}
+#loc
+{
+    text-align:center ;
+    padding-left: 20%;
+}
