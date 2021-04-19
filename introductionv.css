@@ -1,0 +1,27 @@
+#intvideo
+{
+ margin: 20px;
+ margin-bottom: 430px;
+
+}
+#video
+{
+    border-radius: 15px;
+    float: left;
+}
+#introtext
+{
+     
+        float: right;
+ }
+ #wlcm
+ {
+     font-size: 25px;
+     color: blue;
+ }
+ #gtu
+ {
+    font-size: 30px;
+    color: blue;
+   
+ }

@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="second_nav.css">
+    <link rel="stylesheet" href="introductionv.css">
     <script src="home_page.js"></script>
 </head>
 <body>      
 <header class="header"> 
        <div > 
                        <img id="logo"  class="fleft" src="image/logo.jpg" height="150px" width="150px"></img>  
-       <div>  
+</div>  
       <div >      
             <h1 id="headingh1">GTU QUICK INFO</h1>
             <Nav id="navhead" >
@@ -27,17 +28,18 @@
                   <a class="pnav" href="#">Cources</a>
                   <a class="pnav" href="#">Other</a>
                   <a class="pnav" href="#">Contact Us</a>
-                  <a class="pnav" href="#">login_page</a>
+                  <a class="pnav" href="#" style="margin-right: 20px;">login_page</a>
             </Nav>
       </div>      
 </header>
          
     <section id="gallery">
-          
-            <img id="one" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="250px" width="230px"></img> 
-            <img id="two" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="250px" width="230px"></img> 
-            <img id="three" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="250px" width="230px"></img> 
-            <img id="four" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="250px" width="230px"></img> 
+        <div id="photosgallery" >
+            <img id="one" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="300px" width="270px"></img> 
+            <img id="two" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="300px" width="270px"></img> 
+            <img id="three" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="300px" width="270px"></img> 
+            <img id="four" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="300px" width="270px"></img> 
+            </div>
          <div >
             <ul style="list-style-type:none;" id="slidegallery">
             <li id="flt" style="text-decoration: none;" ><a href="#"><</a></li>
@@ -51,7 +53,7 @@
     </section><br><br>
     <section id="nav2">
             <Nav id="navsec">
-                  <a id="hover" class="snav"  href="#">Reports</a>
+                  <a id="fd" class="snav"  href="#">Reports</a>
                   <a class="snav"  href="#">Gallery</a>
                   <a class="snav"  href="#">Impo. Link</a>
                   <a class="snav"  href="#">Admission</a>
@@ -62,69 +64,36 @@
         
             </Nav>
     </section>
-<!--
-    <section>
-              <video controls autoplay="none" height="380" width="660" alt="this video please check ypur connection" >
-              <source type="video/mp4" src="https://www.youtube.com/embed/ur7enXZE8As">
+ <section id="intvideo" >
+              <video id="video" controls autoplay="none" height="380" width="660" alt="this video please check ypur connection" >
+              <source type="video/mp4" src="video/RADHA NE SHYAM MALI JASHE _ Sachin-Jigar_ Sachin Sanghvi_ Shruti Pathak_Aadil Khan_Simran Natekar ( 480 X 854 ).mp4">
               </source>
               </video>
-              <h3>
-              <span>welcome to </span>
-              Gujrat technological University of  gandhinagar
+              <div id="introtext">
+              <h3 >
+              <span id="wlcm">welcome to </span><br>
+              <span  id="gtu">
+              Gujrat technological University of Gandhinagar
+              </span>
               </h3>
-              <p>
-              India's internationally renowned The Maharaja Sayajirao University of Baroda (1949)<br>
-               has blossomed from the Baroda College (1881) which is one of the oldest centres of <br>
-               learning in western India. MSU is the only state University with a residential, <br>
-                unitary character having English as sole medium of instruction with more than 1200  <br>
-                well-qualified faculty members and 1500 administrative staff to facilitate the  <br>
-                learning of more than 35000 students having cosmopolitan life on campus. <br>
+              <p style="font-size:20px margin-bottom:50px" >
+              India's internationally renowned The Maharaja Sayajirao  University<br>
+              of Baroda (1949) has blossomed from the Baroda   College (1881)  of<br>
+              which is one of the oldest centres of learning in western  India.<br>
+              MSU is the only state University  with a residential,unitary character<br>
+              having English  as sole medium of instruction with more than 1200  <br>
+              well-qualified faculty members and 1500 administrative   staff to   <br>
+              facilitate the  learning of more than 35000 students having cosmopolitan<br>
+               life on campus. 
               </p>
-          
+            
     </section>
-    <hr>
+
     <section>
-                <div>
-                     <img src="image/all.jpg" height="280px" width="280px"></img>                 
-                     <img src="image/all.jpg" height="280px" width="280px"></img>                  
-                     <img src="image/all.jpg" height="280px" width="280px"></img> 
-                     <img src="image/all.jpg" height="280px" width="280px"></img>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1> 
-               </div>
-               <div>
-                     <img src="image/all.jpg" height="280px" width="280px"></img>                 
-                     <img src="image/all.jpg" height="280px" width="280px"></img>                  
-                     <img src="image/all.jpg" height="280px" width="280px"></img> 
-                     <img src="image/all.jpg" height="280px" width="280px"></img>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1> 
-               </div>
-               <div>
-                     <img src="image/all.jpg" height="280px" width="280px"></img>                 
-                     <img src="image/all.jpg" height="280px" width="280px"></img>                  
-                     <img src="image/all.jpg" height="280px" width="280px"></img> 
-                     <img src="image/all.jpg" height="280px" width="280px"></img>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1> 
-               </div>
-               <div>
-                     <img src="image/all.jpg" height="280px" width="280px"></img>                 
-                     <img src="image/all.jpg" height="280px" width="280px"></img>                  
-                     <img src="image/all.jpg" height="280px" width="280px"></img> 
-                     <img src="image/all.jpg" height="280px" width="280px"></img>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1> 
-               </div>
+          
+                
     </section>
+    <!--
 <hr>
 <br>
     <section>
@@ -160,7 +129,6 @@
     </section>
     
  </div>
-
    <br>
     <section>
     <h1 align="center">circular</h1>
