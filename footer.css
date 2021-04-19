@@ -1,0 +1,34 @@
+#footer {
+    background-color: rgb(216, 214, 211);
+    width: 100%;
+    height: 230px;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+#d1footer{
+          width: 200px;
+          align-content: center;
+          margin: 10px;
+}
+
+#d2footer{
+            height: 200px;
+            width: 750px;
+}
+
+#d2h{
+    margin-top: 90px;
+    margin-left: 10px;
+    font-size: 170%
+}
+
+#d3footer{
+    margin-left: 30px;
+}
+
+.contact{
+    margin-top: -10px;
+    margin-bottom: -9px;
+}
