@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
 }
@@ -13,7 +14,7 @@
    align-content: center;
 }
 form{
-    background-color:darkorange;
+    background-color:rgb(250, 196, 20);
     border-radius: 5px;
     margin-left: 450px;
     margin-right: 450px;
@@ -75,20 +76,4 @@ input[type="submit"]:hover{
 {
     font-size: initial;
     padding-left: 130px;
-}
-.first1{
-     
-    text-shadow: 2px 1px rosybrown;
-}
-.first1 #first:hover{
-    color: black;
-}
-.first1:visited{
-    color: black;
-}
-.first1:active{
-    color: skyblue;
-}
-#active_login{
-    background-color: white;
 }

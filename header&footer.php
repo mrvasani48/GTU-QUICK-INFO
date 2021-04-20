@@ -59,86 +59,6 @@
   
         </style>
 
-
-
-
-
-
-        <style>
-            #footer {
-    background-color: #fc952c;
-    width: 100%;
-    height: 230px;
-    box-sizing: border-box;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    display: grid;
-    grid-template-columns: 20% 40% 40%;
-}
-#d1footer{
-          width: 200px;
-          align-content: center;
-          margin: 10px;
-        
-}
-
-#d2footer{
-            height: 200px;
-            width: 750px;
-}
-
-#d2h{
-    margin-top: 60px;
-    margin-left: 40px;
-    font-size: 200%
-}
-
-#d3footer{
-    margin-left: 30px;
-}
-
-.contact{
-    margin-top: -10px;
-    margin-bottom: -9px;
-    text-transform: capitalize;
-}
-#logofooter
-{
-    border-radius: 5px;
-}
-#copyright
-{
-    text-transform: capitalize;
-    float: left;
-    margin-top: 0%;
-    color: cornsilk;
-}
-#lastnav
-{
-    background-color: rgb(103, 103, 241);
-    
-}
-#term{
-    text-transform: capitalize;
-    text-decoration:none ;
-    color: cornsilk;
-    padding-left: 300px;
-}
-#gtuweb{
-    text-transform: capitalize;
-    text-decoration:none ;
-    color: cornsilk;
-    text-align:right ;
-    padding-left: 300px;
-
-}
-#loc
-{
-    text-align:center ;
-    padding-left: 20%;
-}
-            </style>
     <script src="home_page.js"></script>
 </head>
 
@@ -159,54 +79,10 @@
                   <a class="pnav" href="#">Cources</a>
                   <a class="pnav" href="#">Other</a>
                   <a class="pnav" href="#">Contact Us</a>
-                  <a class="pnav" href="#" ">login_page</a>
+                 
             </Nav>
       </div>      
 </header>
-         
-<br>
-<br>
-<br>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br><br>
-
-<br>
-<br>
-
-
-
-
-
-
-<footer id="footer">
-          <div id="d1footer">
-            <img  width="170" id="logofooter" height="170" src="image/logo.jpg" alt="gtu" ></img>
-          </div>
-          <div id="d2footer">
-                  <h3 id="d2h" >Gujrat Technological University<br><span id="loc">  Ahmedabad  </span></h3>
-          </div>
-              <div id="d3footer">
-                  <h1 class="contact">contact us</h1>
-                  <hr style="color:black;">
-                  
-                        <p>Address<br>
-                              Gujarat Technological University<br>
-                                Nr.Vishwakarma Government Engineering College Nr.Visat Three Roads, Visat - Gandhinagar Highway<br>
-                               Chandkheda, Ahmedabad – 382424 - Gujrat</p>
-                       <span id="number"  style="font-size: 15px; color:blue;">079-23267521/570</span><br>
-                       <a id="mail"  href="mailto:registrar@gtu.ac.in"> registrar@gtu.ac.in</a>   
-              </div>
-
-    </footer>
-             <nav id="lastnav">
-             <p id="copyright">Copyright © 2020  Gujrat Technological University .   All Rights Reserved.</p>
-             <a href="#" target="_blank" id="term" rel="noopener noreferrer">Term & Condition</a>
-             <a href="home_page.php" target="_blank" id="gtuweb" rel="noopener noreferrer">Gtu Quick Info</a>
-            </nav>   
 </body>
 </html>

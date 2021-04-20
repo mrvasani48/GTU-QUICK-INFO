@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  overflow: auto;
+}
+#all {
+  margin: 20px;
+  padding: 20px;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(243, 238, 227);
+  border-radius: 5px;
+}
+#head {
+  background-color: orange;
+  padding: 20px;
+  margin: 20px 300px 20px 300px;
+  border-radius: 5px;
+  text-align: center;
+}
+form {
+  background-color: rgb(255, 213, 134);
+  padding: 20px;
+  margin: -20px 300px 20px 300px;
+  border-radius: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="date"] {
+  width: 50%;
+}
+#Userid{
+  margin-left: 9%;
+}
+#email1 {
+  margin-left: 10.5%;
+}
+#password {
+  margin-left: 5.5%;
+}
+#fname {
+  margin-left: 5.5%;
+}
+
+#date {
+  margin-left: 1.5%;
+}
+input[type="submit"]:hover {
+  background-color: rgb(255, 213, 134);
+}
+input[type="submit"] {
+  width: 200px;
+  background-color: orange;
+  font-size: 20px;
+  margin-left: 120px;
+}
+#allname {
+  margin-left: 60px;
+}

@@ -33,7 +33,7 @@
                   <a class="pnav" href="#">Cources</a>
                   <a class="pnav" href="#">Other</a>
                   <a class="pnav" href="#">Contact Us</a>
-                  <a class="pnav" href="#" ">login_page</a>
+                  <a class="pnav" href="signin_signup/login_page.html">login_page</a>
             </Nav>
       </div>      
 </header>
@@ -262,7 +262,7 @@
     </footer>
              <nav id="lastnav">
              <p id="copyright">Copyright © 2020  Gujrat Technological University .   All Rights Reserved.</p>
-             <a href="#" target="_blank" id="term" rel="noopener noreferrer">Term & Condition</a>
+             <a href="term.html" target="_blank" id="term" rel="noopener noreferrer">Term & Condition</a>
              <a href="home_page.php" target="_blank" id="gtuweb" rel="noopener noreferrer">Gtu Quick Info</a>
             </nav>   
 </body>
