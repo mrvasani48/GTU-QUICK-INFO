@@ -1,0 +1,15 @@
+#term_box{
+    box-sizing: border-box;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-top: 5px solid darkorange;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 0px 100px 0px 100px;
+}
+
+.pera{
+    line-height: 20px;
+    font-size: large;
+}
