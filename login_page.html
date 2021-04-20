@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign-in</title>
+    <link rel="stylesheet" href="login_page.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <script type="text/javascript">
+    function validate(){
+        var username=document.getElementById("user");
+        var password=document.getElementById("pass");
+        
+        if(username.value.trim()==""){
+            alert("blank value not allow");
+            return false;
+        }
+        else if(password.value.trim()==""){
+            alert("blank value not allow");
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
+    </script>
+  </head>
+  <body>
+    <header class="header"> 
+      <div > 
+        <img id="logo"  class="fleft" src="logo.jpg" height="150px" width="150px"></img>  
+      </div>  
+     <div >      
+           <h1 id="headingh1">GTU QUICK INFO</h1>
+           <Nav id="navhead" >
+                 <a class="pnav" href="#">Home</a>
+                 <a class="pnav" href="#">About Gtu</a>
+                 <a class="pnav" href="#">Circular</a>
+                 <a class="pnav" href="#">Acadamic</a>
+                 <a class="pnav" href="#">Stu. Zone</a>
+                 <a class="pnav" href="#">Result</a>
+                 <a class="pnav" href="#">Cources</a>
+                 <a class="pnav" href="#">Other</a>
+                 <a class="pnav" href="#">Contact Us</a>
+                 <a class="pnav" id="active_login" href="#" ">login_page</a>
+           </Nav>
+     </div>      
+</header>
+        <div id="sign-in">
+          <h1 id="head">sign-in</h1>
+          <form onsubmit="return validate()" action="home_page.html">
+           
+               <label for="user">user id : </label> <input type="text" name="user_id" id="user"  placeholder="user-id /email"><br>  <br>
+               <label for="password">password : </label> <input type="password" name="password" placeholder="password" id="pass"><br>
+              <p id="first"><a href="#" class="first1" > forgot username / password ?</a> </p>
+              <div align="center"> <input " type="submit" value="sign in" ></div> 
+              <div id="addac"> don't have an account ?</div>
+              <div id="second" >  <a class="first1" href="sign_uppage.html" target="_blank" >sign up now</a> </div>
+         </form> 
+        </div>
+        <footer id="footer">
+          <div id="d1footer">
+            <img  width="170" id="logofooter" height="170" src="logo.jpg" alt="gtu" ></img>
+          </div>
+          <div id="d2footer">
+                  <h3 id="d2h" >Gujrat Technological University<br><span id="loc">  Ahmedabad  </span></h3>
+          </div>
+              <div id="d3footer">
+                  <h1 class="contact">contact us</h1>
+                  <hr style="color:black;">
+                  
+                        <p>Address<br>
+                              Gujarat Technological University<br>
+                                Nr.Vishwakarma Government Engineering College Nr.Visat Three Roads, Visat - Gandhinagar Highway<br>
+                               Chandkheda, Ahmedabad – 382424 - Gujrat</p>
+                       <span id="number"  style="font-size: 15px; color:blue;">079-23267521/570</span><br>
+                       <a id="mail"  href="mailto:registrar@gtu.ac.in"> registrar@gtu.ac.in</a>   
+              </div>
+
+    </footer>
+             <nav id="lastnav">
+             <p id="copyright">Copyright © 2020  Gujrat Technological University .   All Rights Reserved.</p>
+             <a href="#" target="_blank" id="term" rel="noopener noreferrer">Term & Condition</a>
+             <a href="home_page.php" target="_blank" id="gtuweb" rel="noopener noreferrer">Gtu Quick Info</a>
+            </nav>       
+  </body>
+</html>
