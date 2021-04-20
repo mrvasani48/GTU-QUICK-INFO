@@ -8,17 +8,23 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="second_nav.css">
+    <link rel="stylesheet" href="introductionv.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="cources.css">
+    <link rel="stylesheet" href="event.css">
+    <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="circular.css">
     <script src="home_page.js"></script>
 </head>
 <body>      
 <header class="header"> 
        <div > 
-                       <img id="logo"  class="fleft" src="image/logo.jpg" height="150px" width="150px"></img>  
-       <div>  
+         <img id="logo"  class="fleft" src="logo.jpg" height="150px" width="150px"></img>  
+       </div>  
       <div >      
             <h1 id="headingh1">GTU QUICK INFO</h1>
             <Nav id="navhead" >
-                  <a class="pnav" id="active" href="#">Home</a>
+                  <a class="pnav" id="activehome" href="#">Home</a>
                   <a class="pnav" href="#">About Gtu</a>
                   <a class="pnav" href="#">Circular</a>
                   <a class="pnav" href="#">Acadamic</a>
@@ -27,18 +33,19 @@
                   <a class="pnav" href="#">Cources</a>
                   <a class="pnav" href="#">Other</a>
                   <a class="pnav" href="#">Contact Us</a>
-                  <a class="pnav" href="#">login</a>
+                  <a class="pnav" href="login_page.html" ">login_page</a>
             </Nav>
       </div>      
 </header>
          
     <section id="gallery">
-          
-            <img id="one" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="250px" width="230px"></img> 
-            <img id="two" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="250px" width="230px"></img> 
-            <img id="three" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="250px" width="230px"></img> 
-            <img id="four" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="250px" width="230px"></img> 
-         <div>
+        <div id="photosgallery" style="margin-top: 20px;">
+            <img id="one" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="300px" width="270px"></img> 
+            <img id="two" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="300px" width="270px"></img> 
+            <img id="three" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="300px" width="270px"></img> 
+            <img id="four" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="300px" width="270px"></img> 
+            </div>
+         <div >
             <ul style="list-style-type:none;" id="slidegallery">
             <li id="flt" style="text-decoration: none;" ><a href="#"><</a></li>
             <li id="flt" ><a href="#">*</a></li>
@@ -51,7 +58,7 @@
     </section><br><br>
     <section id="nav2">
             <Nav id="navsec">
-                  <a class="snav"  href="#">Reports</a>
+                  <a id="fd" class="snav"  href="#">Reports</a>
                   <a class="snav"  href="#">Gallery</a>
                   <a class="snav"  href="#">Impo. Link</a>
                   <a class="snav"  href="#">Admission</a>
@@ -62,132 +69,201 @@
         
             </Nav>
     </section>
-
-    <section>
-          <div align="center">
-                  <video controls autoplay="false" height="380" width="660" alt="this video please check ypur connection" >
-                      <source type="video/mp4" src="ik.mp4"></source>
-                  </video>
-          </div>
-              
-              <h3>
-              <span>welcome to </span>
-              Gujrat technological University of  gandhinagar
+ <section id="intvideo" >
+       <div>
+              <video id="video" controls autoplay="none" height="380" width="660" alt="this video please check ypur connection" >
+              <source type="video/mp4" src="video/RADHA NE SHYAM MALI JASHE _ Sachin-Jigar_ Sachin Sanghvi_ Shruti Pathak_Aadil Khan_Simran Natekar ( 480 X 854 ).mp4">
+              </source>
+</div>
+<div>       
+              </video>
+              <div id="introtext">
+              <h3 >
+              <span id="wlcm">welcome to </span><br>
+              <span  id="gtu">
+              Gujrat technological University of Ahmedabad 
+              </span>
               </h3>
-              <p>
-              India's internationally renowned The Maharaja Sayajirao University of Baroda (1949)<br>
-               has blossomed from the Baroda College (1881) which is one of the oldest centres of <br>
-               learning in western India. MSU is the only state University with a residential, <br>
-                unitary character having English as sole medium of instruction with more than 1200  <br>
-                well-qualified faculty members and 1500 administrative staff to facilitate the  <br>
-                learning of more than 35000 students having cosmopolitan life on campus. <br>
+              <p style="font-size:20px margin-bottom:50px" >
+              India's internationally renowned The Maharaja Sayajirao  University<br>
+              of Baroda (1949) has blossomed from the Baroda   College (1881)  of<br>
+              which is one of the oldest centres of learning in western  India.<br>
+              MSU is the only state University  with a residential,unitary character<br>
+              having English  as sole medium of instruction with more than 1200  <br>
+              well-qualified faculty members and 1500 administrative   staff to   <br>
+              facilitate the  learning of more than 35000 students having cosmopolitan<br>
+               life on campus. 
               </p>
-    </section>
-    <!--
-    <hr>
-    <section>
-                <div>
-                     <img src="image/all.jpg" height="280px" width="280px"></img>                 
-                     <img src="image/all.jpg" height="280px" width="280px"></img>                  
-                     <img src="image/all.jpg" height="280px" width="280px"></img> 
-                     <img src="image/all.jpg" height="280px" width="280px"></img>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1> 
+           </div>
+</div>
+</section>
+   <h1 style="text-align:center; clear:left; clear:right; ">cources</h1>
+    <section id="cources">
+         
+                 <div id="cources1">
+                     <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
+                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
                </div>
-               <div>
-                     <img src="image/all.jpg" height="280px" width="280px"></img>                 
-                     <img src="image/all.jpg" height="280px" width="280px"></img>                  
-                     <img src="image/all.jpg" height="280px" width="280px"></img> 
-                     <img src="image/all.jpg" height="280px" width="280px"></img>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1> 
+               <div id="cources1">
+                     <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
+                     <p id="couresname" ><a id="csnm" href="#">Mastar Of Engineering</a></p>
                </div>
-               <div>
-                     <img src="image/all.jpg" height="280px" width="280px"></img>                 
-                     <img src="image/all.jpg" height="280px" width="280px"></img>                  
-                     <img src="image/all.jpg" height="280px" width="280px"></img> 
-                     <img src="image/all.jpg" height="280px" width="280px"></img>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1> 
+               <div id="cources1">
+                     <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
+                     <p id="couresname" ><a id="csnm" href="#">BCA</a></p>
                </div>
-               <div>
-                     <img src="image/all.jpg" height="280px" width="280px"></img>                 
-                     <img src="image/all.jpg" height="280px" width="280px"></img>                  
-                     <img src="image/all.jpg" height="280px" width="280px"></img> 
-                     <img src="image/all.jpg" height="280px" width="280px"></img>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1>
-                     <h1>faculty of engineering</h1> 
+               <div id="cources1">
+                     <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
+                     <p id="couresname" ><a id="csnm" href="#">MCA</a></p>
                </div>
-    </section>
-<hr>
-<br>
-    <section>
-    <h1 align="center">Event</h1>
-             <a   class="Courrse"    href="#"  target=""  rel="noopener noreferrer"  >
-             <img height="300px" width="250px"  src="image/all.jpg" alt="this is image " />
-             </a>
-    </section>
-    <hr>
-   <div>
-    <section>
-    <h1 align="center">News </h1>
-    <a style="float:left"  href="#"><</a>
-             <a style="float:left"  class="Courrse"    href="#"  target=""  rel="noopener noreferrer"  >
-            revised Online Midsemester<br> Exam Schedule SSBCOM <br>III Apr.....
-             </a>
-             <a style="float:left"   class="Courrse"    href="#"  target=""  rel="noopener noreferrer"  >
-            revised Online Midsemester<br> Exam Schedule SSBCOM <br>III Apr.....
-             </a>
-             <a style="float:left"   class="Courrse"    href="#"  target=""  rel="noopener noreferrer"  >
-            revised Online Midsemester<br> Exam Schedule SSBCOM <br>III Apr.....
-             </a>
-             <a  style="float:left"  class="Courrse"    href="#"  target=""  rel="noopener noreferrer"  >
-            revised Online Midsemester<br> Exam Schedule SSBCOM <br>III Apr.....
-             </a>
-             <a style="float:left"    class="Courrse"    href="#"  target=""  rel="noopener noreferrer"  >
-            revised Online Midsemester<br> Exam Schedule SSBCOM <br>III Apr.....
-             </a>
-             <a  style="float:left"  class="Courrse"    href="#"  target=""  rel="noopener noreferrer"  >
-            revised Online Midsemester<br> Exam Schedule SSBCOM <br>III Apr.....
-             </a>
-             <a href="#">></a>
-    </section>
-    
- </div>
 
-   <br>
-    <section>
-    <h1 align="center">circular</h1>
-             <a   class="Course"    href="#"  target=""  rel="noopener noreferrer"  >
-             <img height="300px" width="250px"  src="image/all.jpg" alt="this is image " />
-             </a>
+               <div id="cources1">
+                     <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
+                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+               </div>
+             
+               <div id="cources1">
+                     <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
+                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+               </div>
+               <div id="cources1">
+                     <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
+                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+               </div>
+               <div id="cources1">
+                     <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
+                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+               </div>
+               <div id="cources1">
+                     <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
+                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+               </div>
+               <div id="cources1">
+                     <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
+                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+               </div>
+               <div id="cources1">
+                     <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
+                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+               </div>
+               <div id="cources1">
+                     <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
+                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+               </div>
+               <div id="cources1">
+                     <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
+                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+               </div>
+               <div id="cources1">
+                     <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
+                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+               </div>
+               <div id="cources1" >
+                     <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
+                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+               </div>
+              
+                  
     </section>
-    <hr>
-    <footer>
-            <h1>contact us</h1>
-              <img src="image/logo.jpg" alt="gtu" ></img>
-              <h4>Gujrat Technological University <br> gandhinagar</h4>
-              <p>Address<br>
-Gujarat Technological University<br>
-Nr.Vishwakarma Government Engineering College Nr.Visat Three Roads, Visat - Gandhinagar Highway<br>
-Chandkheda, Ahmedabad – 382424 - Gujrat</p>
-<span style="font-size: 15px; color: #FF6300;">&nbsp;&nbsp;079-23267521/570</span>
-<a href="mailto:registrar@gtu.ac.in">registrar@gtu.ac.in</a>
+       
+    <section >
+            <h1 id="eventh1" align="center">Event</h1>
+          
+                 <div id="event1">
+                  <a id="eventanchor"     href="#"  target=""  rel="noopener noreferrer"  >
+                   <img id="eventimage" height="200px" width="200px"  src="all.jpg" alt="this is image " />
+                   <div id="eventname">gtu covecation</div>
+                     </a>
+             <div>
+    </section>
+    <br><br>
+    
+    <section>
+    <h1 align="center">Notifications </h1>
+    <div class="alnewsgride">
+            <div class="items1">
+                        <div class="textitems1" > <a style="text-decoration:none;" href="#"> revised Online Midsemester Exam Schedule SSBCOM  III Apr.....</a></div> 
+                        <div style=" background-color:orange; text-align: center;"><a class="viewall"href="#">view all </a></div>
+            </div>
+            <div class="items1">
+                        <div class="textitems1" > <a style="text-decoration:none;" href="#"> revised Online Midsemester Exam Schedule SSBCOM  III Apr.....</a></div> 
+                        <div style=" background-color:orange; text-align: center;"><a class="viewall"href="#">view all </a></div>
+            </div>
+            <div class="items1">
+                        <div class="textitems1" > <a style="text-decoration:none;" href="#"> revised Online Midsemester Exam Schedule SSBCOM  III Apr.....</a></div> 
+                        <div style=" background-color:orange; text-align: center;"><a class="viewall"href="#">view all </a></div>
+            </div>
+            <div class="items1">
+                        <div class="textitems1" > <a style="text-decoration:none;" href="#"> revised Online Midsemester Exam Schedule SSBCOM  III Apr.....</a></div> 
+                        <div style=" background-color:orange; text-align: center;"><a class="viewall"href="#">view all </a></div>
+            </div>
+            <div class="items1">
+                        <div class="textitems1" > <a style="text-decoration:none;" href="#"> revised Online Midsemester Exam Schedule SSBCOM  III Apr.....</a></div> 
+                        <div style=" background-color:orange; text-align: center;"><a class="viewall"href="#">view all </a></div>
+            </div>
+            <div class="items1">
+                        <div class="textitems1" > <a style="text-decoration:none;" href="#"> revised Online Midsemester Exam Schedule SSBCOM  III Apr.....</a></div> 
+                        <div style=" background-color:orange; text-align: center;"><a class="viewall"href="#">view all </a></div>
+            </div>
+            <div class="items1">
+                        <div class="textitems1" > <a style="text-decoration:none;" href="#"> revised Online Midsemester Exam Schedule SSBCOM  III Apr.....</a></div> 
+                        <div style=" background-color:orange; text-align: center;"><a class="viewall"href="#">view all </a></div>
+            </div>
+            <div class="items1">
+                        <div class="textitems1" > <a style="text-decoration:none;" href="#"> revised Online Midsemester Exam Schedule SSBCOM  III Apr.....</a></div> 
+                        <div style=" background-color:orange; text-align: center;"><a class="viewall"href="#">view all </a></div>
+            </div>
+            <div class="items1">
+                        <div class="textitems1" > <a style="text-decoration:none;" href="#"> revised Online Midsemester Exam Schedule SSBCOM  III Apr.....</a></div> 
+                        <div style=" background-color:orange; text-align: center;"><a class="viewall"href="#">view all </a></div>
+            </div>
+            <div class="items1">
+                        <div class="textitems1" > <a style="text-decoration:none;" href="#"> revised Online Midsemester Exam Schedule SSBCOM  III Apr.....</a></div> 
+                        <div style=" background-color:orange; text-align: center;"><a class="viewall"href="#">view all </a></div>
+            </div>
+           
+      </div>     
+           
+    </section>  
+   <br><br> 
+
+   <section>
+    <h1 align="center">Circular</h1>
+    <div class="circulargride">
+            <div class="circularitems1">
+                        <div class="circulartextitems1" > <a style="text-decoration:none;" href="#">Revised Terms and Vacations for the Academic Year 2019-2020.    </a></div> 
+                        <div style=" background-color:orange; text-align: center;"><a class="circularviewall"href="#">view all </a></div>
+            </div>
+          
+      </div>     
+           
+    </section>  
+   <br><br> 
+ 
+ <footer id="footer">
+          <div id="d1footer">
+            <img  width="170" id="logofooter" height="170" src="logo.jpg" alt="gtu" ></img>
+          </div>
+          <div id="d2footer">
+                  <h3 id="d2h" >Gujrat Technological University<br><span id="loc">  Ahmedabad  </span></h3>
+          </div>
+              <div id="d3footer">
+                  <h1 class="contact">contact us</h1>
+                  <hr style="color:black;">
+                  
+                        <p>Address<br>
+                              Gujarat Technological University<br>
+                                Nr.Vishwakarma Government Engineering College Nr.Visat Three Roads, Visat - Gandhinagar Highway<br>
+                               Chandkheda, Ahmedabad – 382424 - Gujrat</p>
+                       <span id="number"  style="font-size: 15px; color:blue;">079-23267521/570</span><br>
+                       <a id="mail"  href="mailto:registrar@gtu.ac.in"> registrar@gtu.ac.in</a>   
+              </div>
+
     </footer>
-    <hr>
-    <nav>
-    <p>Copyright © 2019  Gujrat Technological University .   All Rights Reserved.</p>
-    <a href="#" target="_blank" rel="noopener noreferrer">Term & condition</a>
-    <a href="#" target="_blank" rel="noopener noreferrer">gtu</a>
-    </nav>
-    <hr>-->
+             <nav id="lastnav">
+             <p id="copyright">Copyright © 2020  Gujrat Technological University .   All Rights Reserved.</p>
+             <a href="#" target="_blank" id="term" rel="noopener noreferrer">Term & Condition</a>
+             <a href="home_page.php" target="_blank" id="gtuweb" rel="noopener noreferrer">Gtu Quick Info</a>
+            </nav>   
 </body>
 </html>
