@@ -38,3 +38,10 @@ REFUND AND CANCELLATION POLICY
 
 Fees once paid will not be refunded in any circumstances
 </p>
+
+
+mysql
+
+CREATE DATABASE gtu
+Expand Requery Edit Bookmark Database Queried time
+CREATE TABLE `SIGN_UP` ( `User_Id` int(12) NOT NULL, `Email` varchar(100) NOT NULL, `Password` varchar(100) NOT NULL, `Full_Name` varchar(100) NOT NULL, `Date_Birth` int(8) NOT NULL, `Xender` int(8) NOT NULL )
