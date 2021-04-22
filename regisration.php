@@ -19,6 +19,6 @@ $sql=mysqli_query($conn,$query);
 header("location:login_page.php");
 }
 else{
-    header("location:sign_uppage.html");
+    header("location:sign_uppage.php");
 }
 ?>

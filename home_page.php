@@ -14,29 +14,45 @@
     <link rel="stylesheet" href="event.css">
     <link rel="stylesheet" href="news.css">
     <link rel="stylesheet" href="circular.css">
-    <script src="home_page.js"></script>
+    <link rel="stylesheet" href="newheader.css" />
+   
 </head>
-<body>      
-<header class="header"> 
-       <div > 
-         <img id="logo"  class="fleft" src="image/logo.jpg" height="150px" width="150px"></img>  
-       </div>  
-      <div >      
-            <h1 id="headingh1">GTU QUICK INFO</h1>
-            <Nav id="navhead" >
-                  <a class="pnav" id="active" href="#">Home</a>
-                  <a class="pnav" href="#">About Gtu</a>
-                  <a class="pnav" href="#">Circular</a>
-                  <a class="pnav" href="#">Acadamic</a>
-                  <a class="pnav" href="#">Stu. Zone</a>
-                  <a class="pnav" href="#">Result</a>
-                  <a class="pnav" href="#">Cources</a>
-                  <a class="pnav" href="#">Other</a>
-                  <a class="pnav" href="#">Contact Us</a>
-                  <a class="pnav" href="login_page.php">login_page</a>
-            </Nav>
-      </div>      
-</header>
+<body>   
+
+<div class="container1">
+        <div class="box1" >
+            <img  id="image" src="image/logo.jpg" height="150px" width="150px"></img>  
+        </div>
+
+        <div class="box2">
+             <div class="box2in1">
+
+                 <div id="headingh1">GTU QUICK INFO</div>
+
+                 <div  id="userlogin">
+                    <a style="text-decoration: none;" href="login_page.php">
+                        <img id="image" src="image/user.jpeg" height="70px" width="70px">
+                         </img><br>
+                        <spna id="logintext">     <?php if(isset($_GET['succes'])){echo $_GET['succes'];} else {echo("login");}?>
+                        </spna>
+                     </a>
+                 </div>
+
+             </div>
+
+             <div class="box2in2">
+                <a class="pnav active"  id="active" href="#">Home</a>
+                <a class="pnav" href="#">About Gtu</a>
+                <a class="pnav" href="#">Circular</a>
+                <a class="pnav" href="#">Acadamic</a>
+                <a class="pnav" href="#">Stu. Zone</a>
+                <a class="pnav" href="#">Result</a>
+                <a class="pnav" href="#">Cources</a>
+                <a class="pnav" href="#">Other</a>
+                <a class="pnav" href="#">Contact Us</a>
+             </div>
+        </div>
+    </div>
          
     <section id="gallery">
         <div id="photosgallery" style="margin-top: 20px;">
@@ -262,8 +278,8 @@
     </footer>
              <nav id="lastnav">
              <p id="copyright">Copyright © 2020  Gujrat Technological University .   All Rights Reserved.</p>
-             <a href="term.html" target="_blank" id="term" rel="noopener noreferrer">Term & Condition</a>
-             <a href="home_page.php" target="_blank" id="gtuweb" rel="noopener noreferrer">Gtu Quick Info</a>
+             <a href="term.php" target="_blank" id="term" rel="noopener noreferrer">Term & Condition</a>
+             <a href="https://www.gtu.ac.in/" target="_blank" id="gtuweb" rel="noopener noreferrer">Gtu Official website</a>
             </nav>   
 </body>
 </html>

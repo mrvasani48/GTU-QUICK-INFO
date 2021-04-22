@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -26,7 +27,7 @@
 
               <div id="addac"> don't have an account ?</div>
             </form> 
-              <div id="second" >  <a class="first1"   href="sign_uppage.html"  >sign up now</a> </div>
+              <div id="second" >  <a class="first1"   href="sign_uppage.php"  >sign up now</a> </div>
          
         </div>
       
