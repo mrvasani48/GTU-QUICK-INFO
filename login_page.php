@@ -18,7 +18,7 @@
       </div>
 
       <dic class="container">
-        <form class="form1" onsubmit="return validatepassword(),validateuserid()">
+        <form class="form1" onsubmit="return validatepassword(),validateuserid()" action="login_page_validation.php">
           <div class="i"><label for="user">user id : </label>&nbsp;
 
             <input onchange="validateuserid()" type="text" name="user_id" id="user_id" placeholder="Enrollment no">
