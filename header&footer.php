@@ -4,86 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gtu Quick Info</title>
-    
-    <style>
-        .header {
-    background-color: rgb(255, 140, 0,0.7);
-    width: 100%;
-    height: 180px;
-    box-sizing: border-box;
-    margin-top: -50px;
-   }
-
-   .fleft
-   {
-      float: left;
-   }
-   #logo
-   {
-   margin: 15px;  
-   border-radius: 7px;
-   }
-   #headingh1
-   {
-      text-align: center;
-      font-size: 90px;
-      margin-bottom:10.57px;
-   }
-   #navhead
-   {
-    height: 50px;
-    display: flex; 
-    }
-    .pnav{
-     text-decoration: none;
-     border: 1px solid black;
-     vertical-align: middle;
-     overflow: hidden;    
-     line-height: 3;
-     align-items: center;
-     flex-wrap: nowrap;
-     flex-direction: row ;
-     flex-grow:1;
-      flex-shrink: 1;
-      text-align: center;
-      border-radius: 5px;
-      justify-content: space-between;
-      margin-left: 5px;
-      margin-right: 5px; 
-    }
-
-    .pnav:hover{
-     background-color: rgb(245, 245, 245);
-    }
-  
-        </style>
-
-    <script src="home_page.js"></script>
+    <title>Gtu Quick Info</title> 
+    <link rel="stylesheet" href="newheader.css" />
+    <link rel="stylesheet" href="footer.css">
 </head>
-
 <body>      
-<header class="header"> 
-       <div > 
-         <img id="logo"  class="fleft" src="image/logo.jpg" height="150px" width="150px"></img>  
-       </div>  
-      <div >      
-            <h1 id="headingh1">GTU QUICK INFO</h1>
-            <Nav id="navhead" >
-                  <a class="pnav" href="home_page.php">Home</a>
-                  <a class="pnav" href="#">About Gtu</a>
-                  <a class="pnav" href="#">Circular</a>
-                  <a class="pnav" href="#">Acadamic</a>
-                  <a class="pnav" href="#">Stu. Zone</a>
-                  <a class="pnav" href="#">Result</a>
-                  <a class="pnav" href="#">Cources</a>
-                  <a class="pnav" href="#">Other</a>
-                  <a class="pnav" href="#">Contact Us</a>
-                 
-            </Nav>
-      </div>      
-</header>
+    <div class="container1">
+        <div class="box1" >
+            <img  id="image" src="image/logo.jpg" height="150px" width="150px"></img>  
+        </div>
 
+        <div class="box2">
+             <div class="box2in1">
+
+                 <div id="headingh1">GTU QUICK INFO</div>
+
+                 <div  id="userlogin">
+                    <a style="text-decoration: none;" href="login_page.php">
+                        <img id="image" src="image/user.jpeg" height="70px" width="70px">
+                         </img><br>
+                        <spna id="logintext"> login
+                        </spna>
+                     </a>
+                 </div>
+
+             </div>
+
+             <div class="box2in2">
+                <a class="pnav" id="active" href="home_page.php">Home</a>
+                <a class="pnav" href="#">About Gtu</a>
+                <a class="pnav" href="#">Circular</a>
+                <a class="pnav" href="#">Acadamic</a>
+                <a class="pnav" href="#">Stu. Zone</a>
+                <a class="pnav" href="#">Result</a>
+                <a class="pnav" href="#">Cources</a>
+                <a class="pnav" href="#">Other</a>
+                <a class="pnav" href="#">Contact Us</a>
+             </div>
+        </div>
+    </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+     
+ <footer id="footer">
+          <div id="d1footer">
+            <img  width="170" id="logofooter" height="170" src="image/logo.jpg" alt="gtu" ></img>
+          </div>
+          <div id="d2footer">
+                  <h3 id="d2h" >Gujrat Technological University<br><span id="loc">  Ahmedabad  </span></h3>
+          </div>
+              <div id="d3footer">
+                  <h1 class="contact">contact us</h1>
+                  <hr style="color:black;">
+                  
+                        <p>Address<br>
+                              Gujarat Technological University<br>
+                                Nr.Vishwakarma Government Engineering College Nr.Visat Three Roads, Visat - Gandhinagar Highway<br>
+                               Chandkheda, Ahmedabad – 382424 - Gujrat</p>
+                       <span id="number"  style="font-size: 15px; color:blue;">079-23267521/570</span><br>
+                       <a id="mail"  href="mailto:registrar@gtu.ac.in"> registrar@gtu.ac.in</a>   
+              </div>
+
+    </footer>
+             <nav id="lastnav">
+             <p id="copyright">Copyright © 2020  Gujrat Technological University .   All Rights Reserved.</p>
+             <a href="term.php" target="_blank" id="term" rel="noopener noreferrer">Term & Condition</a>
+             <a href="https://www.gtu.ac.in/" target="_blank" id="gtuweb" rel="noopener noreferrer">Gtu Official website</a>
+            </nav>   
 </body>
 </html>
-<?php ?>
+

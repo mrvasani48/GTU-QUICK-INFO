@@ -76,7 +76,8 @@
                <nav id="lastnav">
                <p id="copyright">Copyright © 2020  Gujrat Technological University .   All Rights Reserved.</p>
                <a href="term.html" target="_blank" id="term" rel="noopener noreferrer">Term & Condition</a>
-               <a href="home_page.php" target="_blank" id="gtuweb" rel="noopener noreferrer">Gtu Quick Info</a>
-              </nav>
+               <a href="https://www.gtu.ac.in/" target="_blank" id="gtuweb" rel="noopener noreferrer">Gtu Official website</a>
+          
+                </nav>
 </body>
 </html>
