@@ -1,60 +1,57 @@
-* {
-  box-sizing: border-box;
-  overflow: auto;
+#a{
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  height: 700px;
 }
-#all {
-  margin: 20px;
-  padding: 20px;
-  text-transform: capitalize;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rgb(243, 238, 227);
-  border-radius: 5px;
+#sign-up{
+  
+  display: flex;
+  flex-direction: column;
 }
-#head {
-  background-color: orange;
-  padding: 20px;
-  margin: 20px 300px 20px 300px;
-  border-radius: 5px;
-  text-align: center;
-}
-form {
-  background-color: rgb(255, 213, 134);
-  padding: 20px;
-  margin: -20px 300px 20px 300px;
-  border-radius: 5px;
-}
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="text"],
-input[type="date"] {
-  width: 50%;
-}
-#Userid{
-  margin-left: 9%;
-}
-#email1 {
-  margin-left: 10.5%;
-}
-#password {
-  margin-left: 5.5%;
-}
-#fname {
-  margin-left: 5.5%;
+  #head{
+    background-color: darkorange;
+    border-radius: 5px;
+    width: 379px;
+  }
+  .container{
+    background-color: rgba(255, 166, 0, 0.692);
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+.i{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-#date {
-  margin-left: 1.5%;
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"]{
+  width: 60%;
 }
-input[type="submit"]:hover {
-  background-color: rgb(255, 213, 134);
+.form1{
+  display: flex;
+  flex-direction: column;
 }
-input[type="submit"] {
-  width: 200px;
-  background-color: orange;
-  font-size: 20px;
-  margin-left: 120px;
+.first1:hover{
+  color: white;
+  background-color: black;
 }
-#allname {
-  margin-left: 60px;
+#first{
+  text-align: right;
+}
+.x{
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+#z{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin : 40px 0px;
 }
