@@ -1,79 +1,44 @@
+#a{
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+}
+#sign-in{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
 
-*{
-    box-sizing: border-box;
 }
-#sign-in
-{
-   padding: 20px;
-   margin: 10px 10px 10px;
-   text-transform: capitalize;
-   font-weight: bold;
-   font-style: normal;
-   font-family: 'Courier New', Courier, monospace;
-   font-size: larger;
-   align-content: center;
-}
-form{
-    background-color:rgb(250, 196, 20);
+#head{
+    background-color: darkorange;
     border-radius: 5px;
-    margin-left: 450px;
-    margin-right: 450px;
+}
+.container{
+    background-color: rgba(255, 166, 0, 0.692);
+    border-radius: 5px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.i{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 60%;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+}
+.first1:hover{
+    color: white;
+    background-color: black;
 }
 #first{
-   
-    font-size: initial ;
-    font-family: none;
-    padding-left: 100px;
-    
-}
-.first1 {
-    text-decoration: none;
-}
-#head
-{
-    margin-left: 450px;
-    margin-right: 450px;
-    border-radius: 5px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    background-color: khaki;
-    padding: 20px;
-}
-input[type="text"]  
-
-{
-   margin-left: 10px;
-}
-
-input[type="password"]  
-{
-   margin-left: 10px;
-}
-
-input[type="submit"]
-{
-    background-color: khaki;
-    width: 50%;
-    border-radius: 5px;
-    padding: 5px;
-    font-size: 20px;
-    
-}
-input[type="submit"]:hover{
-    background-color: #f2f2f2;
-}
-#addac{
-    font:initial;
-    margin-top: 44px;
-}
-
-#second
-{
-    font: size 15px; ;
-}
-#second
-{
-    font-size: initial;
-    padding-left: 130px;
+    text-align: right;
 }
