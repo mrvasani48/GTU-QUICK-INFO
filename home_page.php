@@ -21,7 +21,7 @@
 
 <div class="container1">
         <div class="box1" >
-            <img  id="image" src="image/logo.jpg" height="150px" width="150px"></img>  
+            <img  id="image" src="logo.jpg" height="150px" width="150px"></img>  
         </div>
 
         <div class="box2">
@@ -31,7 +31,7 @@
 
                  <div  id="userlogin">
                     <a style="text-decoration: none;" href="login_page.php">
-                        <img id="image" src="image/user.jpeg" height="70px" width="70px">
+                        <img id="image" src="user.jpeg" height="70px" width="70px">
                          </img><br>
                         <spna id="logintext">     <?php if(isset($_GET['succes'])){echo $_GET['succes'];} else {echo("login");}?>
                         </spna>
@@ -87,8 +87,8 @@
     </section>
  <section id="intvideo" >
        <div>
-              <video id="video" controls autoplay="none" height="380" width="660" alt="this video please check ypur connection" >
-              <source type="video/mp4" src="video/RADHA NE SHYAM MALI JASHE _ Sachin-Jigar_ Sachin Sanghvi_ Shruti Pathak_Aadil Khan_Simran Natekar ( 480 X 854 ).mp4">
+       <iframe id="video" width="660" height="360" src="https://www.youtube.com/embed/GQiYDvhSVGA" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             
               </source>
 </div>
 <div>       
@@ -100,16 +100,10 @@
               Gujrat technological University of Ahmedabad 
               </span>
               </h3>
-              <p style="font-size:20px margin-bottom:50px" >
-              India's internationally renowned The Maharaja Sayajirao  University<br>
-              of Baroda (1949) has blossomed from the Baroda   College (1881)  of<br>
-              which is one of the oldest centres of learning in western  India.<br>
-              MSU is the only state University  with a residential,unitary character<br>
-              having English  as sole medium of instruction with more than 1200  <br>
-              well-qualified faculty members and 1500 administrative   staff to   <br>
-              facilitate the  learning of more than 35000 students having cosmopolitan<br>
-               life on campus. 
+              <p style="font-size:20px; margin-bottom:50px;" >
+              I hope you are safe and following norms of social distancing as a precautionary measure of covid-19. We have seen many drastic changes in the duration of January to May 2020. For GTU, the year 2020 started on a very positive note by organizing 9th annual convocation at Mahatma Mandir in the presence of Shri Amit Shah, Hon’ble Home Minister of India. His gracious presence motivated thousands of students.
               </p>
+              <div><button><a style="text-decoration:none;" href="intro_readmore.php">Read More</a></button></div>
            </div>
 </div>
 </section>
@@ -187,7 +181,7 @@
           
                  <div id="event1">
                   <a id="eventanchor"     href="#"  target=""  rel="noopener noreferrer"  >
-                   <img id="eventimage" height="200px" width="200px"  src="image/all.jpg" alt="this is image " />
+                   <img id="eventimage" height="200px" width="200px"  src="all.jpg" alt="this is image " />
                    <div id="eventname">gtu covecation</div>
                      </a>
              <div>
@@ -258,7 +252,7 @@
  
  <footer id="footer">
           <div id="d1footer">
-            <img  width="170" id="logofooter" height="170" src="image/logo.jpg" alt="gtu" ></img>
+            <img  width="170" id="logofooter" height="170" src="logo.jpg" alt="gtu" ></img>
           </div>
           <div id="d2footer">
                   <h3 id="d2h" >Gujrat Technological University<br><span id="loc">  Ahmedabad  </span></h3>

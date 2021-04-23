@@ -1,0 +1,36 @@
+#wlcm
+{
+    font-size: 30px;
+    color: blue;
+}
+#gtu
+{
+   font-size: 35px;
+   color: blue;
+}
+#heading{
+    text-align: center;
+}
+.pe{
+    font-size: 20px;
+}
+#introtext{
+    display: grid;
+    
+    grid-template-columns: 16% 68% 16%;
+}
+.main2{
+    display: grid;
+    grid-template-rows: 50px 120px 1000px 50px;
+}
+.sub2{
+    border-top: 5px solid darkorange;
+    border-bottom: 5px solid darkorange;
+}
+.sub3{
+    border-bottom: 5px solid darkorange;
+    padding: 0px 20px;
+}
+.main1,.main3,.sub1,.sub4{
+    background-color: #f7f7f7;
+}
