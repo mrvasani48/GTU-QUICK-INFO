@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="sign_uppage.css">
     <script type="text/javascript" src="sign_uppage_validation.js"></script>
 </head>
-
 <body>
     <div id="a">
         <div id="sign-up">
@@ -56,33 +55,28 @@
                         <br><br>
                         <div class="i">
                             <label>xender : </label>&nbsp;&nbsp;
-
                             <label class="x">
                                 <input type="radio" name="xender" id="xender" value="male" required> male
                                 <input type="radio" name="xender" id="xender" value="female" required> female
                                 <input type="radio" name="xender" id="xender" value="other" required> other
                             </label>
-
                         </div>
-
                         </label><br> <br>
                         <div>
-                            <input type="checkbox" required id=""> i accept the <a class="first1" href="term.html">
+                            <input type="checkbox" required id=""> i accept the <a class="first1" href="term.php">
                                 terms of use </a>& <a class="first1" href="#">privacy policy</a>
                         </div><br><br>
                         <div align="center">
                             <input class="first1" type="submit" name="submit" value="signup" id="button">
                         </div>
 
-                        
                         <p>alrady have an account ?<a class="first1" href="login_page.php">login here</a> </p>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
-
 </body>
-
 </html>
+
+<?php ?>

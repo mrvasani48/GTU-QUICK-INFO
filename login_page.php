@@ -36,7 +36,7 @@
           
         </form>
         <div id="addac"><span>don't have an account ?
-          <a class="first1" href="sign_uppage.html">sign up now</a></span>
+          <a class="first1" href="sign_uppage.php">sign up now</a></span>
         </div>
       </dic>
 
