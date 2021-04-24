@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gtu Quick Info</title> 
     <link rel="stylesheet" href="newheader.css" />
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="circular_page.css" />
+    <link rel="stylesheet" href="footer.css" />
 </head>
+
 <body>      
     <div class="container1">
         <div class="box1" >
@@ -43,8 +45,22 @@
              </div>
         </div>
     </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
-     
+    <br><br>
+
+    <div class="mainsp">
+                <div class="headsp1in1"><h1>CIRCULAR</h1>
+                  </div>  
+                <div class="headsp1in2" >
+                 
+                          <div class="f1row1date">      dabba1                 
+                                </div>
+                             <div  class="f1row1name">   dabba2                 
+                                </div>
+                          
+                </div>
+    </div> 
+ 
+    <br> <br> 
  <footer id="footer">
           <div id="d1footer">
             <img  width="170" id="logofooter" height="170" src="image/logo.jpg" alt="gtu" ></img>

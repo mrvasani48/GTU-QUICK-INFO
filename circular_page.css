@@ -1,0 +1,36 @@
+.mainsp
+{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: auto 500px;
+    grid-row-gap: 20px;
+}
+.headsp1in1
+{
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.headsp1in2
+{
+    background-color: #f7f7f7;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap:20px ;
+    grid-template-rows: repeat(auto,1fr);
+}
+.f1row1date
+{
+    background-color: #9c0d0d;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}

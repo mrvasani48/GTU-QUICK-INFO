@@ -20,7 +20,7 @@
     grid-column-end: 6;
     border-top: 5px solid orange;
     border-bottom: 5px solid orange;
-    background-color: #f7f7f7;
+    background-color: #e7e7e7;
 
 }
 .headag2
@@ -34,7 +34,7 @@
 {
     grid-column-start: 2;
     grid-column-end: 6;
-    background-color: #f7f7f7;
+    background-color: #e7e7e7;
    
 }
 .headag2img
@@ -55,7 +55,7 @@
 {
     grid-column-start: 2;
     grid-column-end: 6;
-    background-color: #f7f7f7;
+    background-color: #e7e7e7;
     padding-top: 5px;
     text-transform: capitalize;
     font-size: 20px;

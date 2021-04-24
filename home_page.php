@@ -43,7 +43,7 @@
              <div class="box2in2">
                 <a class="pnav active"  id="active" href="home_page.php">Home</a>
                 <a class="pnav" href="about_gtu.php">About Gtu</a>
-                <a class="pnav" href="#">Circular</a>
+                <a class="pnav" href="circular_page.php">Circular</a>
                 <a class="pnav" href="#">Acadamic</a>
                 <a class="pnav" href="#">Stu. Zone</a>
                 <a class="pnav" href="#">Result</a>

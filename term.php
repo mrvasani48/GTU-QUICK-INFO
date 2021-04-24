@@ -1,24 +1,53 @@
-<?php include_once('newheader.php'); ?>
+<?php   ?>
   <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="term.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="footer.css">
     <title>Terms & Conditions</title>
-    <script type="text/javascript">
-       var element = document.getElementById("active");
-         element.classList.remove("active");
-      </script>
+    <link rel="stylesheet" href="term.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="newheader.css" />
 </head>
-<body style="background-color: #e7e7e7;" id="top">
+<body>
+<div class="container1">
+        <div class="box1" >
+            <img  id="image" src="image/logo.jpg" height="150px" width="150px"></img>  
+        </div>
+
+        <div class="box2">
+             <div class="box2in1">
+
+                 <div id="headingh1">GTU QUICK INFO</div>
+
+                 <div  id="userlogin">
+                    <a style="text-decoration: none;" href="login_page.php">
+                        <img id="image" src="image/user.jpeg" height="70px" width="70px">
+                         </img><br>
+                        <spna id="logintext"> login
+                        </spna>
+                     </a>
+                 </div>
+
+             </div>
+
+             <div class="box2in2">
+                <a class="pnav" id="active" href="home_page.php">Home</a>
+                <a class="pnav" href="about_gtu.php">About Gtu</a>
+                <a class="pnav" href="circular_page.php">Circular</a>
+                <a class="pnav" href="#">Acadamic</a>
+                <a class="pnav" href="#">Stu. Zone</a>
+                <a class="pnav" href="#">Result</a>
+                <a class="pnav" href="#">Cources</a>
+                <a class="pnav" href="#">Other</a>
+                <a class="pnav" href="#">Contact Us</a>
+             </div>
+        </div>
+    </div>  
 
 
-
- <div id="term_box" style="overflow-x:scroll;overflow-x :visible !important">
+ <div id="term_box" style="background-color: #e7e7e7; overflow-x:scroll;overflow-x :visible !important"   id="top  ">
 
     <h1 style="padding: 10px 20px 13px 20px; margin: 0%;"></h1>
     <p class="pera" style="text-align:center"><span style="font-size:30px"><u><strong>GTU TERM</strong></u></span></p>  <br>  
@@ -69,7 +98,7 @@
                                   Nr.Vishwakarma Government Engineering College Nr.Visat Three Roads, Visat - Gandhinagar Highway<br>
                                  Chandkheda, Ahmedabad – 382424 - Gujrat</p>
                          <span id="number"  style="font-size: 15px; color:blue;">&#9742; 079-23267521/570</span><br>
-                         <a id="mail"  href="mailto:registrar@gtu.ac.in">&#128231; registrar@gtu.ac.in</a>   
+                         <a id="mail"  href="mailto:registrar@gtu.ac.in">&#128231;  registrar@gtu.ac.in</a>   
                 </div>
   
       </footer>
