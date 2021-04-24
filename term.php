@@ -14,7 +14,7 @@
          element.classList.remove("active");
       </script>
 </head>
-<body style="background-color: #e7e7e7;">
+<body style="background-color: #e7e7e7;" id="top">
 
 
 
@@ -48,7 +48,7 @@
      
      <p class="pera" style="text-align:justify"><span>REFUND AND CANCELLATION POLICY  </span></p>  <br>
  
-      <p class="pera" style="text-align:justify"><span>Fees once paid will not be refunded in any circumstances. </span></p>  <br>
+      <p class="pera" style="text-align:justify"><span>Fees once paid will not be refunded in any circumstances. </span>&nbsp;&nbsp; <a style="text-decoration:none;" href="#top"> Go_TO_TOP </a>&nbsp;&nbsp;&nbsp;  <a style="text-decoration:none;" href="home_page.php"> Go_TO_Home_page </a></p>  <br>
  
                               
  </div>
@@ -68,8 +68,8 @@
                                 Gujarat Technological University<br>
                                   Nr.Vishwakarma Government Engineering College Nr.Visat Three Roads, Visat - Gandhinagar Highway<br>
                                  Chandkheda, Ahmedabad – 382424 - Gujrat</p>
-                         <span id="number"  style="font-size: 15px; color:blue;">079-23267521/570</span><br>
-                         <a id="mail"  href="mailto:registrar@gtu.ac.in"> registrar@gtu.ac.in</a>   
+                         <span id="number"  style="font-size: 15px; color:blue;">&#9742; 079-23267521/570</span><br>
+                         <a id="mail"  href="mailto:registrar@gtu.ac.in">&#128231; registrar@gtu.ac.in</a>   
                 </div>
   
       </footer>

@@ -41,15 +41,15 @@
              </div>
 
              <div class="box2in2">
-                <a class="pnav active"  id="active" href="#">Home</a>
-                <a class="pnav" href="#">About Gtu</a>
+                <a class="pnav active"  id="active" href="home_page.php">Home</a>
+                <a class="pnav" href="about_gtu.php">About Gtu</a>
                 <a class="pnav" href="#">Circular</a>
                 <a class="pnav" href="#">Acadamic</a>
                 <a class="pnav" href="#">Stu. Zone</a>
                 <a class="pnav" href="#">Result</a>
                 <a class="pnav" href="#">Cources</a>
-                <a class="pnav" href="#">Other</a>
-                <a class="pnav" href="#">Contact Us</a>
+                <a class="pnav" href="#">career</a>
+                <a class="pnav" href="#">student corner</a>
              </div>
         </div>
     </div>
@@ -57,11 +57,11 @@
     <section id="gallery">
         <div id="photosgallery" style="margin-top: 20px;">
             <img id="one" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="300px" width="270px"></img> 
-            <img id="two" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="300px" width="270px"></img> 
-            <img id="three" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="300px" width="270px"></img> 
-            <img id="four" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="300px" width="270px"></img> 
+            <img id="two" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_2M8A7065.jpg" height="300px" width="270px"></img> 
+            <img id="three" src="https://www.gtu.ac.in/SliderImages/images/repub_1.jpg" height="300px" width="270px"></img> 
+            <img id="four" src="https://www.gtu.ac.in/SliderImages/images/repub_2.jpg" height="300px" width="270px"></img> 
             </div>
-         <div >
+     <!--    <div >
             <ul style="list-style-type:none;" id="slidegallery">
             <li id="flt" style="text-decoration: none;" ><a href="#"><</a></li>
             <li id="flt" ><a href="#">*</a></li>
@@ -70,7 +70,7 @@
             <li id="flt" ><a href="#">*</a></li>
             <li id="flt" ><a href="#">></a></li>
             </ul>
-          </div>
+          </div>-->
     </section><br><br>
     <section id="nav2">
             <Nav id="navsec">
@@ -265,8 +265,8 @@
                               Gujarat Technological University<br>
                                 Nr.Vishwakarma Government Engineering College Nr.Visat Three Roads, Visat - Gandhinagar Highway<br>
                                Chandkheda, Ahmedabad – 382424 - Gujrat</p>
-                       <span id="number"  style="font-size: 15px; color:blue;">079-23267521/570</span><br>
-                       <a id="mail"  href="mailto:registrar@gtu.ac.in"> registrar@gtu.ac.in</a>   
+                       <span id="number"  style="font-size: 15px; color:blue;">&#9742; 079-23267521/570</span><br>
+                       <a id="mail"  href="mailto:registrar@gtu.ac.in">&#128231; registrar@gtu.ac.in</a>   
               </div>
 
     </footer>

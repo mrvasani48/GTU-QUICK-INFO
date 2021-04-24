@@ -14,12 +14,9 @@
         <div class="box1" >
             <img  id="image" src="logo.jpg" height="150px" width="150px"></img>  
         </div>
-
         <div class="box2">
              <div class="box2in1">
-
                  <div id="headingh1">GTU QUICK INFO</div>
-
                  <div  id="userlogin">
                     <a style="text-decoration: none;" href="login_page.php">
                         <img id="image" src="user.jpeg" height="70px" width="70px">
@@ -28,12 +25,10 @@
                         </spna>
                      </a>
                  </div>
-
              </div>
-
              <div class="box2in2">
                 <a class="pnav" id="active" href="home_page.php">Home</a>
-                <a class="pnav" href="#">About Gtu</a>
+                <a class="pnav" href="about_gtu.php">About Gtu</a>
                 <a class="pnav" href="#">Circular</a>
                 <a class="pnav" href="#">Acadamic</a>
                 <a class="pnav" href="#">Stu. Zone</a>
@@ -90,7 +85,6 @@
                        <span id="number"  style="font-size: 15px; color:blue;">079-23267521/570</span><br>
                        <a id="mail"  href="mailto:registrar@gtu.ac.in"> registrar@gtu.ac.in</a>   
               </div>
-
     </footer>
              <nav id="lastnav">
              <p id="copyright">Copyright © 2020  Gujrat Technological University .   All Rights Reserved.</p>

@@ -3,9 +3,10 @@
      display: grid;
      grid-template-columns: 15% 80%;
      background-color:  rgb(255, 140, 0,0.7);
-     width: 100%;
+     width: 98%;
      height: 100%;
      padding:12px;
+
 }
 .box1
 {
