@@ -43,7 +43,7 @@
              <div class="box2in2">
                 <a class="pnav active"  id="active" href="home_page.php">Home</a>
                 <a class="pnav" href="about_gtu.php">About Gtu</a>
-                <a class="pnav" href="#">Circular</a>
+                <a class="pnav" href="circular_page.php">Circular</a>
                 <a class="pnav" href="#">Acadamic</a>
                 <a class="pnav" href="#">Stu. Zone</a>
                 <a class="pnav" href="#">Result</a>
@@ -235,20 +235,20 @@
       </div>     
            
     </section>  
-   <br><br> 
+    <br><br> 
 
-   <section>
-    <h1 align="center">Circular</h1>
-    <div class="circulargride">
-            <div class="circularitems1">
-                        <div class="circulartextitems1" > <a style="text-decoration:none;" href="#">Revised Terms and Vacations for the Academic Year 2019-2020.    </a></div> 
-                        <div style=" background-color:orange; text-align: center;"><a class="circularviewall"href="#">view all </a></div>
-            </div>
-          
-      </div>     
-           
-    </section>  
-   <br><br> 
+<section>
+ <h1 align="center">Circular</h1>
+ <div class="circulargride">
+         <div class="circularitems1">
+                     <div class="circulartextitems1" > <a style="text-decoration:none;" href="https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/SKM_36721042317030_340223.pdf">ELECTIVE SUBJECT’S ENTRY FOR B. PHARM SEM-8 (REGULAR) (SUMMER - 2021)   </a></div> 
+                     <div style=" background-color:orange; text-align: center;"><a class="circularviewall"href="circular_page.php">view all </a></div>
+         </div>
+       
+   </div>     
+        
+ </section>  
+<br><br>
  
  <footer id="footer">
           <div id="d1footer">
@@ -277,4 +277,4 @@
             </nav>   
 </body>
 </html>
-<?php ?>
+<?php ?>    
