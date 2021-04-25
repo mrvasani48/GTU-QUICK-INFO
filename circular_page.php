@@ -35,7 +35,7 @@
              <div class="box2in2">
                 <a class="pnav" id="active" href="home_page.php">Home</a>
                 <a class="pnav" href="about_gtu.php">About Gtu</a>
-                <a class="pnav" href="#">Circular</a>
+                <a class="pnav" href="circular.php">Circular</a>
                 <a class="pnav" href="#">Acadamic</a>
                 <a class="pnav" href="#">Stu. Zone</a>
                 <a class="pnav" href="#">Result</a>
@@ -51,12 +51,17 @@
                 <div class="headsp1in1"><h1>CIRCULAR</h1>
                   </div>  
                 <div class="headsp1in2" >
-                 
-                          <div class="f1row1date">      dabba1                 
+                        
+                          <div class="f1row1date"> <a style="text-decoration: none;  text-transform: capitalize;" href="https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/SKM_36721042317030_340223.pdf">date : 23-Apr-2021 </a>              
                                 </div>
-                             <div  class="f1row1name">   dabba2                 
+                             <div  class="f1row1name"><a style="text-decoration: none;  text-transform: capitalize;" href="https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/SKM_36721042317030_340223.pdf">ELECTIVE SUBJECT’S ENTRY FOR B. PHARM SEM-8 (REGULAR) (SUMMER - 2021)</a>                
+                               </div>
+
+                          <div class="f1row2date"> <a style="text-decoration: none;  text-transform: capitalize;" href="https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/SKM_36721042317030_340223.pdf">date : 23-Apr-2021 </a>              
                                 </div>
-                          
+                             <div  class="f1row2name"><a style="text-decoration: none;  text-transform: capitalize;" href="https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/SKM_36721042317030_340223.pdf">Cancellation of International Experience Program (IEP) 2021 due to pandemic of COVID-19</a>                
+                               </div>
+                        
                 </div>
     </div> 
  

@@ -17,20 +17,59 @@
 }
 .headsp1in2
 {
-    background-color: #f7f7f7;
+    background-color: #f7f7f7d8;
     grid-column-start: 2;
     grid-column-end: 6;
     border-top: 5px solid orange;
     border-bottom: 5px solid orange;
+    display:grid;
     grid-template-columns: repeat(5,1fr);
-    grid-column-gap:20px ;
-    grid-template-rows: repeat(auto,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-column-gap: 20px;
+    align-items: center;
+    text-align: center;
 }
 .f1row1date
 {
-    background-color: #9c0d0d;
+    background-color: #e7e7e7;
+    border: 2px solid gray;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    height:40px;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+
+.f1row1name
+{
+    background-color: #e7e7e7;
+    border: 2px solid gray;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.f1row2date
+{
+    background-color: #e7e7e7;
+    border: 2px solid gray;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height:40px;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+
+.f1row2name
+{
+    background-color: #e7e7e7;
+    border: 2px solid gray;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
