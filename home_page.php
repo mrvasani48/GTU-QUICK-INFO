@@ -43,11 +43,11 @@
              <div class="box2in2">
                 <a class="pnav active"  id="active" href="home_page.php">Home</a>
                 <a class="pnav" href="about_gtu.php">About Gtu</a>
-                <a class="pnav" href="circular_page.php">Circular</a>
+                <a class="pnav" href="#">Circular</a>
                 <a class="pnav" href="#">Acadamic</a>
                 <a class="pnav" href="#">Stu. Zone</a>
                 <a class="pnav" href="#">Result</a>
-                <a class="pnav" href="#">Cources</a>
+                <a class="pnav" href="cources_page.php">Cources</a>
                 <a class="pnav" href="#">career</a>
                 <a class="pnav" href="#">student corner</a>
              </div>
@@ -112,65 +112,65 @@
          
                  <div id="cources1">
                      <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
-                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+                     <p id="couresname" ><a id="csnm" href="#">Diploma Engineering</a></p>
                </div>
                <div id="cources1">
                      <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
-                     <p id="couresname" ><a id="csnm" href="#">Mastar Of Engineering</a></p>
+                     <p id="couresname" ><a id="csnm" href="#">Diploma Pharmacy</a></p>
                </div>
                <div id="cources1">
                      <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
-                     <p id="couresname" ><a id="csnm" href="#">BCA</a></p>
+                     <p id="couresname" ><a id="csnm" href="#">Bachelor of Engineering</a></p>
                </div>
                <div id="cources1">
                      <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
-                     <p id="couresname" ><a id="csnm" href="#">MCA</a></p>
+                     <p id="couresname" ><a id="csnm" href="#">Bachelor of Pharmacy</a></p>
                </div>
 
                <div id="cources1">
                      <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
-                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+                     <p id="couresname" ><a id="csnm" href="#">Bachelor of Architecture</a></p>
                </div>
              
                <div id="cources1">
                      <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
-                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+                     <p id="couresname" ><a id="csnm" href="#">Bachelor of Hotel Management and Catering Technology</a></p>
                </div>
                <div id="cources1">
                      <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
-                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+                     <p id="couresname" ><a id="csnm" href="#">Master of Engineering</a></p>
                </div>
                <div id="cources1">
                      <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
-                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+                     <p id="couresname" ><a id="csnm" href="#">Master of Computer Applications</a></p>
                </div>
                <div id="cources1">
                      <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
-                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+                     <p id="couresname" ><a id="csnm" href="#">Master of Business Management</a></p>
                </div>
                <div id="cources1">
                      <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
-                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+                     <p id="couresname" ><a id="csnm" href="#">Master of Pharmacy</a></p>
                </div>
                <div id="cources1">
                      <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
-                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+                     <p id="couresname" ><a id="csnm" href="#">Master in Applied Management</a></p>
                </div>
                <div id="cources1">
                      <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
-                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+                     <p id="couresname" ><a id="csnm" href="#">Master in Technology Management</a></p>
                </div>
                <div id="cources1">
                      <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
-                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+                     <p id="couresname" ><a id="csnm" href="#">Master in Pharmacy Management</a></p>
                </div>
                <div id="cources1">
                      <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
-                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+                     <p id="couresname" ><a id="csnm" href="#">Master of Philosophy</a></p>
                </div>
                <div id="cources1" >
                      <img id="couresimg" src="https://www.gtu.ac.in/SliderImages/images/Final_Slider_Women'sDayCelebration2M8A8918.jpg" height="200px" width="200px">
-                     <p id="couresname" ><a id="csnm" href="#">Bachelors Of Engineering</a></p>
+                     <p id="couresname" ><a id="csnm" href="#">Doctor of Philosophy</a></p>
                </div>
               
                   
@@ -182,7 +182,7 @@
                  <div id="event1">
                   <a id="eventanchor"     href="#"  target=""  rel="noopener noreferrer"  >
                    <img id="eventimage" height="200px" width="200px"  src="all.jpg" alt="this is image " />
-                   <div id="eventname">gtu covncation</div>
+                   <div id="eventname">gtu covecation</div>
                      </a>
              <div>
     </section>
@@ -241,8 +241,8 @@
     <h1 align="center">Circular</h1>
     <div class="circulargride">
             <div class="circularitems1">
-                        <div class="circulartextitems1" > <a style="text-decoration:none;" href="https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/SKM_36721042317030_340223.pdf">ELECTIVE SUBJECT’S ENTRY FOR B. PHARM SEM-8 (REGULAR) (SUMMER - 2021)   </a></div> 
-                        <div style=" background-color:orange; text-align: center;"><a class="circularviewall"href="circular_page.php">view all </a></div>
+                        <div class="circulartextitems1" > <a style="text-decoration:none;" href="#">Revised Terms and Vacations for the Academic Year 2019-2020.    </a></div> 
+                        <div style=" background-color:orange; text-align: center;"><a class="circularviewall"href="#">view all </a></div>
             </div>
           
       </div>     
