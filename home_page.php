@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gtu Quick Info</title>
-    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="second_nav.css">
     <link rel="stylesheet" href="introductionv.css">
@@ -15,6 +14,7 @@
     <link rel="stylesheet" href="news.css">
     <link rel="stylesheet" href="circular.css">
     <link rel="stylesheet" href="newheader.css" />
+    <link rel="stylesheet" href="acdamic_page.css" />
    
 </head>
 <body>   
@@ -44,7 +44,7 @@
                 <a class="pnav active"  id="active" href="home_page.php">Home</a>
                 <a class="pnav" href="about_gtu.php">About Gtu</a>
                 <a class="pnav" href="circular_page.php">Circular</a>
-                <a class="pnav" href="#">Acadamic</a>
+                <a class="pnav" href="acadamic_page.php">Acadamic</a>
                 <a class="pnav" href="#">Stu. Zone</a>
                 <a class="pnav" href="#">Result</a>
                 <a class="pnav" href="cources_page.php">Cources</a>

@@ -1,0 +1,109 @@
+.mainsp
+{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: auto 500px ;
+    grid-row-gap: 20px;
+}
+.headsp1in1
+{
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.headbox1
+{
+    background-color: #f7f7f7d8;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(10,1fr);
+    grid-column-gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.alldate
+{
+    background-color: #e7e7e7;
+    border: 2px solid gray;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height:40px;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+.allname
+{
+    background-color: #e7e7e7;
+    border: 2px solid gray;
+    grid-column-start: 3;
+    grid-column-end: 6; 
+    height:32px;
+    padding-top: 5px;
+}
+.box1date1,.box1name1
+{
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.box1date2,.box1name2
+{
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.box1date3,.box1name3
+{
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.box1date4,.box1name4
+{
+
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.box1date5,.box1name5
+{
+
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.box1date6,.box1name6
+{
+
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+.box1date7,.box1name7
+{
+
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+.box1date9,.box1name9
+{
+
+    grid-row-start: 9;
+    grid-row-end: 10;
+}
+.box1date10,.box1name10
+{
+
+    grid-row-start: 10;
+    grid-row-end: 11;
+}
+
+
+
