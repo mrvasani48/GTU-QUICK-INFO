@@ -1,0 +1,37 @@
+#cources
+{
+    margin-bottom: 50px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+}
+
+.couresimg{
+    margin-bottom: -4px;
+}
+.couresname{
+ background-color: rgb(255, 177, 9);
+ width: 200px;
+ height: 60px;
+ margin-top:0px ;
+ margin-bottom: 0px;
+ 
+ box-sizing: border-box;
+ display: flex;
+ align-content: center;
+ text-align:center;
+ justify-content: center;
+}
+.csnm{
+         text-decoration: none;
+      align-self: center;
+}
+.cources1
+{
+    border:1px solid wheat;
+    width: 200px;
+    box-shadow:0px 0px 15px orange;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
