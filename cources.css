@@ -12,19 +12,20 @@
 #couresname{
  background-color: rgb(255, 177, 9);
  width: 200px;
- height: 60px;
+ height: 30px;
  margin-top:0px ;
  margin-bottom: 0px;
- 
+ padding-top: 7px;
+ padding-left: 10px;
  box-sizing: border-box;
- display: flex;
- align-content: center;
+ padding-bottom: 25px;
+
  text-align:center;
- justify-content: center;
+
 }
 #csnm{
          text-decoration: none;
-      align-self: center;
+      
 }
 #cources1
 {
