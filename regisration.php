@@ -16,9 +16,10 @@ $xender=$_GET["xender"];
 if($_GET["submit"]){
 $query="INSERT INTO `sign_up` (userid,email,pass,fname,bdate,xender) values ('$userid','$email','$pass','$fname','$bdate','$xender')";
 $sql=mysqli_query($conn,$query);
-header("location:login_page.php");
+
+header("location:succes.php");
 }
 else{
-    header("location:sign_uppage.php");
+    header("location:error.php");
 }
 ?>
