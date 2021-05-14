@@ -1,4 +1,3 @@
-
 function useridvalidate(){
     var userid= document.getElementById("user_id").value;
   

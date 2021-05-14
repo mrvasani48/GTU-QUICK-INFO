@@ -46,7 +46,7 @@
                 <a class="pnav" href="circular_page.php">Circular</a>
                 <a class="pnav" href="acadamic_page.php">Acadamic</a>
                 <a class="pnav" href="#">Stu. Zone</a>
-                <a class="pnav" href="#">Result</a>
+                <a class="pnav" href="result_page.php">Result</a>
                 <a class="pnav" href="cources_page.php">Cources</a>
                 <a class="pnav" href="#">career</a>
                 <a class="pnav" href="#">student corner</a>
