@@ -48,8 +48,8 @@
                 <a class="pnav" href="#">Stu. Zone</a>
                 <a class="pnav" href="result_page.php">Result</a>
                 <a class="pnav" href="cources_page.php">Cources</a>
-                <a class="pnav" href="#">career</a>
-                <a class="pnav" href="#">student corner</a>
+                <a class="pnav" href="career_page.php">career</a>
+                <a class="pnav" href="#d1footer">student corner</a>
              </div>
         </div>
     </div>
