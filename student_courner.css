@@ -10,9 +10,12 @@
     text-decoration: none;
     color: black;
     font-size: 25px;
+
 }
 .main{
     display: flex;
-    
+    margin-top: 20px;
+    margin-bottom:25px;
     flex-direction: column;
+    background-color: #e7e7e7;
 }
