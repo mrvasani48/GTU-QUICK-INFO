@@ -21,7 +21,7 @@
 
 <div class="container1">
         <div class="box1" >
-            <img  id="image" src="logo.jpg" height="150px" width="150px"></img>  
+            <img  id="image" src="image/logo.jpg" height="150px" width="150px"></img>  
         </div>
 
         <div class="box2">
@@ -31,7 +31,7 @@
 
                  <div  id="userlogin">
                     <a style="text-decoration: none;" href="login_page.php">
-                        <img id="image" src="user.jpeg" height="70px" width="70px">
+                        <img id="image" src="image/user.jpeg" height="70px" width="70px">
                          </img><br>
                         <spna id="logintext">     <?php if(isset($_GET['succes'])){echo $_GET['succes'];} else {echo("login");}?>
                         </spna>
@@ -252,7 +252,7 @@
  
  <footer id="footer">
           <div id="d1footer">
-            <img  width="170" id="logofooter" height="170" src="logo.jpg" alt="gtu" ></img>
+            <img  width="170" id="logofooter" height="170" src="image/logo.jpg" alt="gtu" ></img>
           </div>
           <div id="d2footer">
                   <h3 id="d2h" >Gujrat Technological University<br><span id="loc">  Ahmedabad  </span></h3>
