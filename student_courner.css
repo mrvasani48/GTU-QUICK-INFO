@@ -1,0 +1,18 @@
+.sz{
+    
+    width: 450px;
+    border: 2px;
+    padding: 5px;
+    background-color: darkorange;
+    margin: 5px 0px;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.main{
+    display: flex;
+    
+    flex-direction: column;
+}

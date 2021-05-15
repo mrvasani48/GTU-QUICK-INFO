@@ -32,15 +32,15 @@
              </div>
 
              <div class="box2in2">
-                <a class="pnav" href="home_page.php">Home</a>
+             <a class="pnav" href="home_page.php">Home</a>
                 <a class="pnav" href="about_gtu.php">About Gtu</a>
                 <a class="pnav" href="circular_page.php">Circular</a>
                 <a class="pnav" href="acadamic_page.php">Acadamic</a>
-                <a class="pnav" href="#">Stu. Zone</a>
-                <a class="pnav" href="#">Result</a>
-                <a class="pnav" href="cources_page.php">Cources</a>
-                <a class="pnav" href="#">Other</a>
-                <a class="pnav" href="#d3footer">Contact Us</a>
+                <a class="pnav" href="student_courner.php">Stu. Zone</a>
+                <a class="pnav" href="result_page.php">Result</a>
+                <a class="pnav active" href="cources_page.php">Cources</a>
+                <a class="pnav" href="career_page.php">career</a>
+                <a class="pnav" href="#d3footer">Contact us</a>
              </div>
         </div>
     </div>
@@ -49,65 +49,65 @@
     <section id="cources">
          
          <div class="cources1">
-             <img class="couresimg" src="GTU1.jpg" height="200px" width="200px">
+             <img class="couresimg" src="image/GTU1.jpg" height="200px" width="200px">
              <p class="couresname" ><a class="csnm" href="#">Diploma Engineering</a></p>
        </div>
        <div class="cources1">
-             <img class="couresimg" src="GTU2.jpg" height="200px" width="200px">
+             <img class="couresimg" src="image/GTU2.jpg" height="200px" width="200px">
              <p class="couresname" ><a class="csnm" href="#">Diploma Pharmacy</a></p>
        </div>
        <div class="cources1">
-             <img class="couresimg" src="GTU4.jpg" height="200px" width="200px">
+             <img class="couresimg" src="image/GTU4.jpg" height="200px" width="200px">
              <p class="couresname" ><a class="csnm" href="#">Bachelor of Engineering</a></p>
        </div>
        <div class="cources1">
-             <img class="couresimg" src="GTU5.jpg" height="200px" width="200px">
+             <img class="couresimg" src="image/GTU5.jpg" height="200px" width="200px">
              <p class="couresname" ><a class="csnm" href="#">Bachelor of Pharmacy</a></p>
        </div>
 
        <div class="cources1">
-             <img class="couresimg" src="GTU6.jpg" height="200px" width="200px">
+             <img class="couresimg" src="image/GTU6.jpg" height="200px" width="200px">
              <p class="couresname" ><a class="csnm" href="#">Bachelor of Architecture</a></p>
        </div>
      
        <div class="cources1">
-             <img class="couresimg" src="GTU7.jpg" height="200px" width="200px">
+             <img class="couresimg" src="image/GTU7.jpg" height="200px" width="200px">
              <p class="couresname" ><a class="csnm" href="#">Bachelor of Hotel Management and Catering Technology</a></p>
        </div>
        <div class="cources1">
-             <img class="couresimg" src="GTU8.jpg" height="200px" width="200px">
+             <img class="couresimg" src="image/GTU8.jpg" height="200px" width="200px">
              <p class="couresname" ><a class="csnm" href="#">Master of Engineering</a></p>
        </div>
        <div class="cources1">
-             <img class="couresimg" src="GTU9.jpg" height="200px" width="200px">
+             <img class="couresimg" src="image/GTU9.jpg" height="200px" width="200px">
              <p class="couresname" ><a class="csnm" href="#">Master of Computer Applications</a></p>
        </div>
        <div class="cources1">
-             <img class="couresimg" src="GTU10.jpg" height="200px" width="200px">
+             <img class="couresimg" src="image/GTU10.jpg" height="200px" width="200px">
              <p class="couresname" ><a class="csnm" href="#">Master of Business Management</a></p>
        </div>
        <div class="cources1">
-             <img class="couresimg" src="GTU11.jpg" height="200px" width="200px">
+             <img class="couresimg" src="image/GTU11.jpg" height="200px" width="200px">
              <p class="couresname" ><a class="csnm" href="#">Master of Pharmacy</a></p>
        </div>
        <div class="cources1">
-             <img class="couresimg" src="GTU12.jpg" height="200px" width="200px">
+             <img class="couresimg" src="image/GTU12.jpg" height="200px" width="200px">
              <p class="couresname" ><a class="csnm" href="#">Master in Applied Management</a></p>
        </div>
        <div class="cources1">
-             <img class="couresimg" src="GTU13.jpg" height="200px" width="200px">
+             <img class="couresimg" src="image/GTU13.jpg" height="200px" width="200px">
              <p class="couresname" ><a class="csnm" href="#">Master in Technology Management</a></p>
        </div>
        <div class="cources1">
-             <img class="couresimg" src="GTU14.jpg" height="200px" width="200px">
+             <img class="couresimg" src="image/GTU14.jpg" height="200px" width="200px">
              <p class="couresname" ><a class="csnm" href="#">Master in Pharmacy Management</a></p>
        </div>
        <div class="cources1">
-             <img class="couresimg" src="GTU15.jpg" height="200px" width="200px">
+             <img class="couresimg" src="image/GTU15.jpg" height="200px" width="200px">
              <p class="couresname" ><a class="csnm" href="#">Master of Philosophy</a></p>
        </div>
        <div class="cources1" >
-             <img class="couresimg" src="GTU16.jpg" height="200px" width="200px">
+             <img class="couresimg" src="image/GTU16.jpg" height="200px" width="200px">
              <p class="couresname" ><a class="csnm" href="#">Doctor of Philosophy</a></p>
        </div>
       

@@ -32,15 +32,15 @@
              </div>
 
              <div class="box2in2">
-                <a class="pnav"  href="home_page.php">Home</a>
+             <a class="pnav" href="home_page.php">Home</a>
                 <a class="pnav active" href="about_gtu.php">About Gtu</a>
                 <a class="pnav" href="circular_page.php">Circular</a>
                 <a class="pnav" href="acadamic_page.php">Acadamic</a>
-                <a class="pnav" href="#">Stu. Zone</a>
-                <a class="pnav" href="#">Result</a>
+                <a class="pnav" href="student_courner.php">Stu. Zone</a>
+                <a class="pnav" href="result_page.php">Result</a>
                 <a class="pnav" href="cources_page.php">Cources</a>
-                <a class="pnav" href="#">Other</a>
-                <a class="pnav" href="#d3footer">Contact Us</a>
+                <a class="pnav" href="career_page.php">career</a>
+                <a class="pnav" href="#d3footer">Contact us</a>
              </div>
         </div>
     </div>
